@@ -10,10 +10,17 @@
 	<meta name="author" content="goalbarclub">
 	<title>Bolao</title>
 	<style>
-		.time2 {padding-top: 25px;}
-		.score2 {padding-top:15px;}
-		.alert { display:inline-block;}
+		.time2 {
+			padding-top: 25px;
+		}
 
+		.score2 {
+			padding-top: 15px;
+		}
+
+		.alert {
+			display: inline-block;
+		}
 	</style>
 </head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -45,7 +52,7 @@
 		animation: chartjs-render-animation 0.001s;
 	}
 </style>
-</head>  
+</head>
 
 <body width=80% data-gr-c-s-loaded="true">
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top mb-4">
@@ -74,32 +81,34 @@
 		<br><br>
 
 		<br><br>
-		<div align="center" >
-		<div  class="alert alert-info width:40%"  role="alert">
-			<strong>Bolão #5</strong> Promoção : Roberto Soares 
-		</div></div>
+		<div align="center">
+			<div class="alert alert-info width:40%" role="alert">
+				<strong>Bolão #5</strong> Promoção : Roberto Soares
+			</div>
+		</div>
 		<div class="row">
 			<main role="main" class="col-md-12 ml-sm-auto col-lg-12 px-4">
 
-				<div class="table-responsive-sm" >
-					<table class="table table-bordered  w-auto" >
+				<div class="table-responsive-sm">
+					<table class="table table-bordered  w-auto">
 						<thead class="thead-dark">
 							<tr>
-								<th scope="col" width=1% >#</th>
-								<th scope="col" width=24% >Data</th>
-								<th scope="col" width=60% >Jogo</th>
-								<th scope="col" width=15% >Placar</th>
-						</tr>
+								<th scope="col" width=1%>#</th>
+								<th scope="col" width=24%>Data</th>
+								<th scope="col" width=60%>Jogo</th>
+								<th scope="col" width=15%>Placar</th>
+							</tr>
 						</thead>
 						<tbody>
 							<tr>
 								<th scope="row">1</th>
 								<td>
-									<div >20.04 13:00 Ita</div>
-								</td>  
+									<div>20.04 13:00 Ita</div>
+								</td>
 								<td class="team">
-									<div ><img src="./res/Juventus.png" alt="" style="width:20px;height:20px" data-atf="1"> Juventus</div>
-									<div class="time2"><img src="./res/Fiorentina.png" alt="" style="width:20px;height:20px" data-atf="1"> Fiorentina</div>
+									<div><img src="./res/Juventus.png" alt="" style="width:20px;height:20px" data-atf="1"> Juventus</div>
+									<div class="time2"><img src="./res/Fiorentina.png" alt="" style="width:20px;height:20px" data-atf="1">
+										Fiorentina</div>
 								</td>
 								<td>
 									<div><select class="form-control form-control-sm" id="selectTeam1" style="">
@@ -116,7 +125,7 @@
 											<option value="j">9</option>
 											<option value="l">10</option>
 										</select></div>
-									<div class="score2">  <select class="form-control form-control-sm" id="selectTeam1" style="">
+									<div class="score2"> <select class="form-control form-control-sm" id="selectTeam1" style="">
 											<option value="-">-</option>
 											<option value="a">0</option>
 											<option value="b">1</option>
@@ -131,362 +140,415 @@
 											<option value="l">10</option>
 										</select></div>
 								</td>
-					
+
 							</tr>
 
 							<tr>
 								<th scope="row">2</th>
 								<td>20.04 15:45 Esp</td>
 								<td class="team">
-										
-									<div><img src="./res/Barcelona.png" alt="" style="width:20px;height:20px" data-atf="1"> Barcelona</div>
-									<div class="time2"><img src="./res/Real Sociedad.png"" alt="" style="width:20px;height:20px" data-atf="1">   Real Sociedad</div>
+									<div><img src="./res/barcelona.png" alt="" style="width:20px;height:20px" data-atf="1"> Barcelona
+									</div>
+									<div class="time2"><img src="./res/Real Sociedad.png"" alt="" style=" width:20px;height:20px"
+											data-atf="1"> Real Sociedad</div>
 								</td>
 								<td>
 									<div>
 										<select class="form-control form-control-sm" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select></div>
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
 									<div class="score2"> <select class="form-control form-control-sm" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select></div>
-							</td>
-							
-							
-<!-- 							</tr>
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
+								</td>
+
+
+							</tr>
 
 							<tr>
 								<th scope="row">3</th>
 								<td>20.04 16:30 MG</td>
-								<td class="team">Atlético-MG</td>
-								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
+								<td class="team">
+									<div><img src="./res/Atlético-MG.png" alt="" style="width:20px;height:20px" data-atf="1"> Atlético-MG
+									</div>
+									<div class="time2"><img src="./res/Cruzeiro.png" alt="" style="width:20px;height:20px" data-atf="1">
+										Cruzeiro</div>
 								</td>
 								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
+									<div>
+										<select class="form-control form-control-sm" id="selectTeam1" style="">
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
+									<div class="score2"> <select class="form-control form-control-sm" id="selectTeam1" style="">
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
 								</td>
-								<td class="team">Cruzeiro</td>
+								<select class="form-control score" id="selectTeam1" style="">
+									<option value="-">-</option>
+									<option value="a">0</option>
+									<option value="b">1</option>
+									<option value="c">2</option>
+									<option value="d">3</option>
+									<option value="e">4</option>
+									<option value="f">5</option>
+									<option value="g">6</option>
+									<option value="h">7</option>
+									<option value="i">8</option>
+									<option value="j">9</option>
+									<option value="l">10</option>
+								</select>
+								</td>
 							</tr>
 
 							<tr>
 								<th scope="row">4</th>
 								<td>21.04 09:30 Ing</td>
-								<td class="team">Everton</td>
-								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
+								<td class="team">
+									<div><img src="./res/Everton.png" alt="" style="width:20px;height:20px" data-atf="1"> Everton
+									</div>
+									<div class="time2"><img src="./res/Manchester Utd.png" alt="" style="width:20px;height:20px"
+											data-atf="1">
+										Manchester Utd</div>
 								</td>
+
 								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
+									<div>
+										<select class="form-control form-control-sm" id="selectTeam1" style="">
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
+									<div class="score2"> <select class="form-control form-control-sm" id="selectTeam1" style="">
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
 								</td>
-								<td class="team">Manchester Utd</td>
+
 							</tr>
 
 							<tr>
 								<th scope="row">5</th>
 								<td>21.04 11:15 Esp</td>
-								<td class="team">Real Madrid</td>
-								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
+								<td class="team">
+									<div><img src="./res/Real Madrid.png" alt="" style="width:20px;height:20px" data-atf="1"> Real Madrid
+									</div>
+									<div class="time2"><img src="./res/Ath Bilbao.png" alt="" style="width:20px;height:20px" data-atf="1">
+										Ath Bilbao</div>
 								</td>
 								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
+									<div>
+										<select class="form-control form-control-sm" id="selectTeam1" style="">
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
+									<div class="score2"> <select class="form-control form-control-sm" id="selectTeam1" style="">
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
 								</td>
-								<td class="team">Ath. Bilbao</td>
+
 							</tr>
 
 							<tr>
 								<th scope="row">6</th>
 								<td>21.04 16:00 SP</td>
-								<td class="team">Corinthians</td>
-								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
+								<td class="team">
+									<div><img src="./res/Corinthians.png" alt="" style="width:20px;height:20px" data-atf="1"> Corinthians
+									</div>
+									<div class="time2"><img src="./res/São Paulo.png" alt="" style="width:20px;height:20px" data-atf="1">
+										São Paulo</div>
 								</td>
 								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
+									<div>
+										<select class="form-control form-control-sm" id="selectTeam1" style="">
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
+									<div class="score2"> <select class="form-control form-control-sm" id="selectTeam1" style="">
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
 								</td>
-								<td class="team">São Paulo</td>
+
 							</tr>
 
 							<tr>
 								<th scope="row">7</th>
 								<td>21.04 16:00 RJ</td>
-								<td class="team">Flamengo</td>
+								<td class="team">
+									<div><img src="./res/Flamengo.png" alt="" style="width:20px;height:20px" data-atf="1"> Flamengo
+									</div>
+									<div class="time2"><img src="./res/Vasco.png" alt="" style="width:20px;height:20px" data-atf="1">
+										Vasco</div>
+
 								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
+									<div>
+										<select class="form-control form-control-sm" id="selectTeam1" style="">
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
+									<div class="score2"> <select class="form-control form-control-sm" id="selectTeam1" style="">
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
 								</td>
-								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
-								</td>
-								<td class="team">Vasco</td>
+
 							</tr>
 
 							<tr>
 								<th scope="row">8</th>
 								<td>21.04 16:00 GO</td>
-								<td class="team">Goias</td>
+								<td class="team">
+									<div><img src="./res/Goias.png" alt="" style="width:20px;height:20px" data-atf="1"> Goias
+									</div>
+									<div class="time2"><img src="./res/Atlético-GO.png" alt="" style="width:20px;height:20px"
+											data-atf="1">
+										Atlético-GO</div>
+
 								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
+									<div>
+										<select class="form-control form-control-sm" id="selectTeam1" style="">
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
+									<div class="score2"> <select class="form-control form-control-sm" id="selectTeam1" style="">
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
 								</td>
-								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
-								</td>
-								<td class="team">Atlético-GO</td>
+
 							</tr>
 
 							<tr>
 								<th scope="row">9</th>
 								<td>21.04 16:00 CE</td>
-								<td class="team">Ceará</td>
+								<td class="team">
+									<div><img src="./res/Ceará.png" alt="" style="width:20px;height:20px" data-atf="1"> Ceará
+									</div>
+									<div class="time2"><img src="./res/Fortaleza.png" alt="" style="width:20px;height:20px" data-atf="1">
+										Fortaleza</div>
+									</td>
 								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
+										<div>
+												<select class="form-control form-control-sm" id="selectTeam1" style="">
+													<option value="-">-</option>
+													<option value="a">0</option>
+													<option value="b">1</option>
+													<option value="c">2</option>
+													<option value="d">3</option>
+													<option value="e">4</option>
+													<option value="f">5</option>
+													<option value="g">6</option>
+													<option value="h">7</option>
+													<option value="i">8</option>
+													<option value="j">9</option>
+													<option value="l">10</option>
+												</select></div>
+											<div class="score2"> <select class="form-control form-control-sm" id="selectTeam1" style="">
+													<option value="-">-</option>
+													<option value="a">0</option>
+													<option value="b">1</option>
+													<option value="c">2</option>
+													<option value="d">3</option>
+													<option value="e">4</option>
+													<option value="f">5</option>
+													<option value="g">6</option>
+													<option value="h">7</option>
+													<option value="i">8</option>
+													<option value="j">9</option>
+													<option value="l">10</option>
+												</select></div>
 								</td>
-								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
-								</td>
-								<td class="team">Fortaleza</td>
+
 							</tr>
 
 							<tr>
 								<th scope="row">10</th>
 								<td>21.04 16:00 PR</td>
-								<td class="team">Athletico-PR</td>
+								<td class="team">
+									<div><img src="./res/Athletico-PR.png" alt="" style="width:20px;height:20px" data-atf="1">
+										Athletico-PR
+									</div>
+									<div class="time2"><img src="./res/Toledo.png" alt="" style="width:20px;height:20px" data-atf="1">
+										Toledo</div>
+
+									</td>
+
 								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
+									<div>
+										<select class="form-control form-control-sm" id="selectTeam1" style="">
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
+									<div class="score2"> <select class="form-control form-control-sm" id="selectTeam1" style="">
+											<option value="-">-</option>
+											<option value="a">0</option>
+											<option value="b">1</option>
+											<option value="c">2</option>
+											<option value="d">3</option>
+											<option value="e">4</option>
+											<option value="f">5</option>
+											<option value="g">6</option>
+											<option value="h">7</option>
+											<option value="i">8</option>
+											<option value="j">9</option>
+											<option value="l">10</option>
+										</select></div>
 								</td>
-								<td>
-									<select class="form-control score" id="selectTeam1" style="">
-										<option value="-">-</option>
-										<option value="a">0</option>
-										<option value="b">1</option>
-										<option value="c">2</option>
-										<option value="d">3</option>
-										<option value="e">4</option>
-										<option value="f">5</option>
-										<option value="g">6</option>
-										<option value="h">7</option>
-										<option value="i">8</option>
-										<option value="j">9</option>
-										<option value="l">10</option>
-									</select>
-								</td>
-								<td class="team">Toledo</td>
+
 							</tr> -->
 
 						</tbody>
