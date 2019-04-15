@@ -12,6 +12,8 @@
 	<style>
 		.time2 {padding-top: 25px;}
 		.score2 {padding-top:15px;}
+		.alert { display:inline-block;}
+
 	</style>
 </head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -43,10 +45,9 @@
 		animation: chartjs-render-animation 0.001s;
 	}
 </style>
-</head>
+</head>  
 
 <body width=80% data-gr-c-s-loaded="true">
-
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top mb-4">
 		<a class="navbar-brand" href="http://178.62.27.252:8000/games.html">GoalBarClub</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -69,13 +70,19 @@
 		</div>
 	</nav>
 	<div class="container">
+
 		<br><br>
+
 		<br><br>
+		<div align="center" >
+		<div  class="alert alert-info width:40%"  role="alert">
+			<strong>Bolão #5</strong> Promoção : Roberto Soares 
+		</div></div>
 		<div class="row">
 			<main role="main" class="col-md-12 ml-sm-auto col-lg-12 px-4">
 
 				<div class="table-responsive-sm" >
-					<table class="table table-bordered" >
+					<table class="table table-bordered  w-auto" >
 						<thead class="thead-dark">
 							<tr>
 								<th scope="col" width=2% >#</th>
@@ -488,8 +495,8 @@
 				</div>
 				<div class="row">
 					<div class="col">
-						<button id="btnbet" type="button" class="btn btn-primary btn-lg">Enviar</button>
-						<button id="btnclear" type="button" class="btn btn-secondary btn-lg">Limpar</button>
+						<button id="btnbet" type="button" class="btn btn-primary btn-sm">Enviar</button>
+						<button id="btnclear" type="button" class="btn btn-secondary btn-sm">Limpar</button>
 					</div>
 				</div>
 
