@@ -1,0 +1,7 @@
+--------------------------------------------
+tag#nome => <tag id="nome"></tag> 
+tag.nome => <tag class="nome"></tag> 
+--------------------------------------------
+Shif Alt F => Formatar fonte
+Ctrl S => Salvar fonte
+Alt B => Preview browser
